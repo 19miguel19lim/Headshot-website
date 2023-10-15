@@ -34,12 +34,12 @@ function Navbar() {
       <div
         className={
           !nav
-            ? "fixed top-24 right-0 py-4 z-50 px-4 flex flex-col space-y-12 bg-white w-full h-full ease-in-out duration-500"
+            ? "fixed top-24 right-0 py-4 z-50 px-4 flex flex-col space-y-12 bg-white bg-opacity-90 w-full h-full ease-in-out duration-500"
             : "top-[-100%] fixed"
         }
       >
-        <ul className="flex flex-col items-start justify-center text-left space-y-4 text-lg">
-          <NavLinks />
+        <ul className="flex flex-col items-start justify-center text-left space-y-4 text-lg ">
+          <NavLinks handleNav={handleNav} />
         </ul>
         <div className="flex flex-col max-w-lg space-y-4">
           <NavButtons />

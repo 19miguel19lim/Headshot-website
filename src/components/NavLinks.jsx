@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 
-function NavLinks() {
+function NavLinks({ handleNav }) {
   return (
     <>
       <li className="nav-item">
         <Link
+          onClick={handleNav}
           className="nav-link font-bold text-[16px] hover:text-lightBlue duration-300"
           to="/"
         >
@@ -13,6 +14,7 @@ function NavLinks() {
       </li>
       <li className="nav-item">
         <Link
+          onClick={handleNav}
           className="nav-link font-bold text-[16px] hover:text-lightBlue duration-300"
           to="/Graduation"
         >
@@ -21,6 +23,7 @@ function NavLinks() {
       </li>
       <li className="nav-item">
         <Link
+          onClick={handleNav}
           className="nav-link font-bold text-[16px] hover:text-lightBlue duration-300"
           to="/Model"
         >
@@ -29,6 +32,7 @@ function NavLinks() {
       </li>
       <li className="nav-item">
         <Link
+          onClick={handleNav}
           className="nav-link font-bold text-[16px] hover:text-lightBlue duration-300"
           to="/Faqs"
         >
@@ -37,6 +41,7 @@ function NavLinks() {
       </li>
       <li className="nav-item">
         <Link
+          onClick={handleNav}
           className="nav-link font-bold text-[16px] hover:text-lightBlue duration-300"
           to="/Blogs"
         >
@@ -45,6 +50,7 @@ function NavLinks() {
       </li>
       <li className="nav-item">
         <Link
+          onClick={handleNav}
           className="nav-link font-bold text-[16px] hover:text-lightBlue duration-300"
           to="/Contact"
         >
@@ -53,6 +59,7 @@ function NavLinks() {
       </li>
       <li className="nav-item">
         <Link
+          onClick={handleNav}
           className="nav-link font-bold text-[16px] hover:text-lightBlue duration-300"
           to="/Model"
         >
