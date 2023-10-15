@@ -30,12 +30,13 @@ function LogoSlider() {
       <Slider
         width="250px"
         duration={50}
+        toRight={false}
         pauseOnHover={false}
         blurBorders={false}
         blurBoderColor={"#fff"}
       >
         {logos.map((curr, i) => (
-          <Slider.Slide>
+          <Slider.Slide key={i}>
             <img src={curr} alt="" className="w-[10rem] " />
           </Slider.Slide>
         ))}
