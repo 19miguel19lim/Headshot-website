@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className="flex justify-between w-full items-center px-2 md:px-4 lg:px-10 xl:px-20  mx-auto h-24 py-4 overflow-hidden">
       {/* Logo */}
-      <div className="flex items-center scale-75 md:scale-100">
+      <div className="flex items-center scale-75 md:scale-100 -ml-6 md:ml-0">
         <Link className="" to="/">
           <img src="assets/headshotx_logo_dark.png" alt="" />
         </Link>
