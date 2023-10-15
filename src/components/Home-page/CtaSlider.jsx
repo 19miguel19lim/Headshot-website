@@ -1,9 +1,9 @@
 import Slider from "react-infinite-logo-slider";
 
 function CtaSlider({ value, speed }) {
-  const male = "/public/assets/male-img1.jpg";
-  const female1 = "/public/assets/female-img1.jpg";
-  const female2 = "/public/assets/female-img2.jpg";
+  const male = "assets/male-img1.jpg";
+  const female1 = "assets/female-img1.jpg";
+  const female2 = "assets/female-img2.jpg";
 
   const logos1 = [
     male,
