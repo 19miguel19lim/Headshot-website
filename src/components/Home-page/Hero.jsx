@@ -37,10 +37,12 @@ function Hero() {
         <div className="pt-12 md:pt-0">
           <HeroLogos />
         </div>
-        <div className={xlScreen ? "lg:absolute top-[20%] left-0" : "hidden"}>
+        <div className={xlScreen ? "lg:absolute top-[20%] -left-12" : "hidden"}>
           <HeroImageGroup />
         </div>
-        <div className={xlScreen ? "lg:absolute top-[20%] right-0" : "hidden"}>
+        <div
+          className={xlScreen ? "lg:absolute top-[20%] -right-12" : "hidden"}
+        >
           <HeroImageGroup />
         </div>
       </div>
