@@ -8,7 +8,7 @@ function Navbar() {
   const [nav, setNav] = useState(true);
   const handleNav = () => setNav(!nav);
   return (
-    <div className="flex justify-between w-full items-center px-2 md:px-4 lg:px-10 xl:px-20  mx-auto h-24 py-4 overflow-hidden">
+    <div className="flex justify-between w-full items-center px-2 md:px-4 lg:px-10 xl:px-20  mx-auto  py-12 overflow-hidden">
       {/* Logo */}
       <div className="flex items-center scale-75 md:scale-100 -ml-6 md:ml-0">
         <Link className="" to="/">

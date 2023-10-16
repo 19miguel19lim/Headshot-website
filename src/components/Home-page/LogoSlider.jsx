@@ -26,7 +26,7 @@ function LogoSlider() {
   ];
 
   return (
-    <div className="bg-black py-5">
+    <div className="bg-black py-8">
       <Slider
         width="250px"
         duration={50}

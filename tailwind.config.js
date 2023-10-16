@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         lightBlue: "#79D7FF",
+        ultraLightBlue: "#d0eaf5",
         darkGray: "#1D1D1F",
         mediumGrey: "#7d828f",
         lightGrey: "#c8ccd8",
@@ -12,6 +13,7 @@ export default {
       },
       backgroundImage: (theme) => ({
         homeBg: "url(./public/assets/HeroBackground.jpg)",
+        gradBg: "url(./public/assets/Gradient-Background.jpeg)",
       }),
     },
   },

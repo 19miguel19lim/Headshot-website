@@ -11,7 +11,7 @@ function Cta() {
             does your compan y require{" "}
             <span className="bg-lightBlue px-2"> a specific look?</span>
           </h1>
-          <p className="text-md max-w-sm   md:text-left md:mx-0 md:px-4  xl:text-lg">
+          <p className="text-md max-w-sm mx-auto   md:text-left md:mx-0 md:px-4  xl:text-lg">
             We can 100% match an existing company style and keep things
             consistent!
           </p>
