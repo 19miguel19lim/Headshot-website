@@ -17,7 +17,15 @@ function PhotoPortfolio() {
       </h1>
       <div className="grid grid-cols-2 gap-4 px-4 lg:grid-cols-3 md:max-w-4xl lg:max-w-7xl mx-auto">
         {images.map((curr, i) => {
-          return <img key={i} src={curr} alt="" />;
+          return (
+            <figure key={i} className="overflow-hidden rounded-3xl">
+              <img
+                src={curr}
+                alt=""
+                className="hover:scale-110 duration-300 "
+              />
+            </figure>
+          );
         })}
       </div>
       <div className="py-4 px-12 rounded-lg bg-black text-white max-w-[15rem] mx-auto text-center  hover:bg-lightBlue cursor-pointer duration-300 hover:text-black font-bold">

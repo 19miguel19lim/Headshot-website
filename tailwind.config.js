@@ -12,8 +12,9 @@ export default {
         veryLightGrey: "#eeeff4",
       },
       backgroundImage: (theme) => ({
-        homeBg: "url(./public/assets/HeroBackground.jpg)",
-        gradBg: "url(./public/assets/Gradient-Background.jpeg)",
+        homeBg: "url(assets/HeroBackground.jpg)",
+        gradBg: "url(assets/Gradient-Background.jpeg)",
+        portBg1: "url(assets/portfolio-img1.png)",
       }),
     },
   },
