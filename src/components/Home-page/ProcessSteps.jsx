@@ -9,7 +9,7 @@ function ProcessSteps() {
     },
     {
       key: 2,
-      title: "simpel shooting sessions",
+      title: "simple shooting sessions",
       description:
         "We value saving your company time. Our entire portrait kit can fit into a 10x10ft space and takes under 30 minutes to setup. If you have a short time constraint to photograph your team we can activate multiple shooting bays in order to move faster through the sessions.",
       image: "assets/step2-img.webp",
@@ -52,28 +52,6 @@ function ProcessSteps() {
           </div>
         );
       })}
-      {/* <div className="flex flex-col space-y-6 lg:flex-row lg:space-y-0 lg:space-x-12">
-        <div className="flex flex-col  space-y-4">
-          <p className="text-4xl h-14 w-14 text-center align-middle rounded-full font-black border-[2px] border-black">
-            1
-          </p>
-          <h1 className="text-3xl font-black uppercase">
-            Quick and easy Booking 🚀
-          </h1>
-
-          <p className="max-w-md">
-            Booking with us is a fast and simple process. Request a free quote
-            from our website here or book your entire team automatically by
-            clicking here. We only require a 50% deposit to hold your date so
-            reach out to us!
-          </p>
-        </div>
-        <img
-          src="assets/step1-img.webp"
-          alt=""
-          className="w-[28rem] brightness-90"
-        />
-      </div> */}
     </div>
   );
 }

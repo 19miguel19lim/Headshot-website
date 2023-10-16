@@ -13,8 +13,8 @@ export default {
       },
       backgroundImage: (theme) => ({
         homeBg: "url(assets/HeroBackground.jpg)",
+        BgX: "url(assets/Bg-X.png)",
         gradBg: "url(assets/Gradient-Background.jpeg)",
-        portBg1: "url(assets/portfolio-img1.png)",
       }),
     },
   },

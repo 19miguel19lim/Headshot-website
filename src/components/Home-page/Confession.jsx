@@ -1,4 +1,4 @@
-import ConfessionSlide from "./ConfessionSlide";
+import ConfessionSlideSm from "./ConfessionSlideSm";
 
 function Confession() {
   return (
@@ -19,7 +19,7 @@ function Confession() {
             <img src="assets/rightArrow-dark.png" alt="" />
           </div>
         </div>
-        <ConfessionSlide />
+        <ConfessionSlideSm />
       </div>
     </div>
   );

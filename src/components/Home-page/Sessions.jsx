@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import CtaSlider from "./CtaSlider";
 
 function Sessions() {
@@ -33,9 +32,6 @@ function Sessions() {
         </div>
         <div className="l">
           <CtaSlider value={false} speed={60} />
-        </div>
-        <div className="l">
-          <CtaSlider value={false} speed={70} />
         </div>
       </div>
       <div className="flex flex-col space-y-8 px-4 text-center">

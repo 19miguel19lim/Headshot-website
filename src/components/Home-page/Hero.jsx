@@ -13,7 +13,7 @@ function Hero() {
   return (
     <div className="flex flex-col space-y-44 overflow-x-hidden">
       <div className="flex flex-col relative w-full py-2 md:py-20 space-y-6 md:space-y-12 items-center max-w-[130rem] mx-auto justify-center bg-homeBg bg-center bg-no-repeat ">
-        <div className="flex flex-col py-12 text-center space-y-12 px-4 md:hidden z-10 ">
+        <div className="flex flex-col py-12 text-center space-y-12 px-4 xl:hidden z-10 ">
           <h1 className="text-[3rem]  leading-[4rem] md:text-7xl font-extrabold uppercase md:leading-[6rem] text-darkGray max-w-5xl mx-auto">
             get pro portraits{" "}
             <span className="bg-lightBlue italic px-2"> stress free</span>
@@ -23,7 +23,7 @@ function Hero() {
             companies and individuals to get their professional portraits
           </p>
         </div>
-        <div className="hidden md:flex flex-col py-12 text-center space-y-12 px-4 z-10 ">
+        <div className="hidden xl:flex flex-col py-12 text-center space-y-12 px-4 z-10 ">
           <h1 className="text-[3rem]  leading-[4rem] md:text-[5rem] font-black uppercase md:leading-[6rem] text-darkGray max-w-5xl mx-auto">
             get professional portraits{" "}
             <span className="bg-lightBlue italic"> stress free</span>
@@ -37,11 +37,17 @@ function Hero() {
         <div className="pt-12 md:pt-0">
           <HeroLogos />
         </div>
-        <div className={xlScreen ? "lg:absolute top-[20%] -left-12" : "hidden"}>
+        <div
+          className={
+            lgScreen ? "lg:absolute top-[1%] -left-44 xl:scale-125" : "hidden"
+          }
+        >
           <HeroImageGroup />
         </div>
         <div
-          className={xlScreen ? "lg:absolute top-[20%] -right-12" : "hidden"}
+          className={
+            lgScreen ? "lg:absolute top-[1%] -right-44 xl:scale-125" : "hidden"
+          }
         >
           <HeroImageGroup />
         </div>
