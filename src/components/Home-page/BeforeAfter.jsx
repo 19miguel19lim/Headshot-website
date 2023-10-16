@@ -89,7 +89,12 @@ function BeforeAfter({
           ...beforeStyle,
         }}
       >
-        <img src={beforeImage} alt="" style={{ height: "100%" }} />
+        <img
+          src={beforeImage}
+          alt=""
+          style={{ height: "100%" }}
+          className="hidden"
+        />
       </div>
 
       <div className={afterClassName} style={afterStyle}>
