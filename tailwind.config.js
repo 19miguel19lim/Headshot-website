@@ -11,11 +11,16 @@ export default {
         lightGrey: "#c8ccd8",
         veryLightGrey: "#eeeff4",
       },
-      backgroundImage: (theme) => ({
+      // backgroundImage: (theme) => ({
+      //   homeBg: "url('assets/HeroBackground.jpg')",
+      //   BgX: "url('assets/Bg-X.png')",
+      //   gradBg: "url('assets/Gradient-Background.jpeg')",
+      // }),
+      backgroundImage: {
         homeBg: "url('assets/HeroBackground.jpg')",
         BgX: "url('assets/Bg-X.png')",
         gradBg: "url('assets/Gradient-Background.jpeg')",
-      }),
+      },
     },
   },
   plugins: [],
