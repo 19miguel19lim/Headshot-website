@@ -23,7 +23,7 @@ function ProcessSteps() {
     },
   ];
   return (
-    <div className="flex flex-col relative space-y-20  items-center z-10 bg-gradient-to-t from-white via-blue-200 to-white">
+    <div className="flex flex-col relative space-y-20 pt-12  items-center z-10 bg-gradient-to-t from-white via-blue-200 to-white">
       {/* first step */}
       {data.map((curr, i) => {
         return (

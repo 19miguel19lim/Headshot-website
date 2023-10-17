@@ -63,7 +63,7 @@ function Confession() {
                     key={i}
                     className="flex items-center justify-between p-6 relative max-w-2xl ml-10 lg:max-w-4xl xl:max-w-2xl"
                   >
-                    <div className="h-full w-[22rem] bg-gradient-to-t from-white via-blue-200 to-white z-0 absolute top-0 right-6 hover:bg-black hover:text-white lg:right-10 xl:right-6"></div>
+                    <div className="h-full w-[22rem] bg-gradient-to-t from-white via-blue-200 to-white z-0 absolute top-0 right-6 hover:bg-black hover:text-white lg:right-10 xl:right-16 xl:w-[18rem]"></div>
                     {/* imge */}
                     <div className="z-10">
                       <img
@@ -73,7 +73,7 @@ function Confession() {
                       />
                     </div>
                     {/* content */}
-                    <div className="flex flex-col space-y-2 items-center absolute top-14 right-10 max-w-xs lg:top-44 lg:max-w-md lg:right-0 xl:top-14 xl:max-w-xs xl:right-10">
+                    <div className="flex flex-col space-y-2 items-center absolute top-14 right-10 max-w-xs lg:top-44 lg:max-w-md lg:right-0 xl:top-14 xl:max-w-xs xl:right-9">
                       <BiSolidQuoteAltLeft
                         size={30}
                         className="absolute -top-8 left-0"
