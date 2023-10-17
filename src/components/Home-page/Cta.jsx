@@ -5,16 +5,19 @@ import CtaSlider from "./CtaSlider";
 function Cta() {
   return (
     <div className="pb-44">
-      <div className="flex flex-col w-full mx-auto space-y-12  md:space-y-0 max-w-[120rem]">
+      <div className="flex flex-col w-full mx-auto space-y-12 md:space-y-0 max-w-7xl relative lg:mb-44">
         <div className="flex flex-col py-12 mx-auto text-center space-y-4 px-4 md:ml-0 ">
-          <h1 className="text-3xl px-4 font-black uppercase text-darkGray  md:text-left md:text-5xl md:w-[33rem] md:leading-[4rem]">
-            does your compan y require{" "}
+          <h1 className="text-4xl px-4 font-black uppercase leading-[3rem] text-darkGray  md:text-left md:text-5xl md:w-[45rem] md:leading-[4rem] lg:text-6xl lg:leading-[4.5rem]">
+            does your company require <br />
             <span className="bg-lightBlue px-2"> a specific look?</span>
           </h1>
-          <p className="text-md max-w-sm mx-auto   md:text-left md:mx-0 md:px-4  xl:text-lg">
+          <p className="text-md max-w-sm mx-auto md:text-left md:mx-0 md:px-4  md:text-xl md:max-w-xl">
             We can 100% match an existing company style and keep things
             consistent!
           </p>
+        </div>
+        <div className="absolute lg:top-[32rem] lg:right-[4rem] xl:top-[15rem] right-0 z-30">
+          <CtaFormDesktop />
         </div>
       </div>
       <div className="flex flex-col relative">
@@ -34,7 +37,6 @@ function Cta() {
 
         {/* place here */}
         <CtaForm />
-        <CtaFormDesktop />
       </div>
     </div>
   );

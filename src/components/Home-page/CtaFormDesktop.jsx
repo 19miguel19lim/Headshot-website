@@ -66,7 +66,7 @@ function CtaFormDesktop() {
     <div
       className={
         lgScreen
-          ? "absolute top-0 right-[3%] w-[30rem] z-20 -mt-44 border-t-8 rounded-t-2xl border-black"
+          ? " w-[30rem] z-20 -mt-44 border-t-8 rounded-t-2xl border-black"
           : "hidden"
       }
     >

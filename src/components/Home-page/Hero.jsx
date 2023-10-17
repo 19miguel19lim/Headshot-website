@@ -6,17 +6,19 @@ import LogoSlider from "./LogoSlider";
 
 function Hero() {
   const windowSize = BreakPoints();
-  const mdScreen = windowSize.width >= 768;
   const lgScreen = windowSize.width >= 1024;
-  const xlScreen = windowSize.width >= 1475;
 
   return (
-    <div className="flex flex-col space-y-44 overflow-x-hidden">
+    <div className="flex flex-col space-y-44 overflow-x-hidden lg:pt-36">
       <div className="flex flex-col relative w-full py-2 md:py-20 space-y-6 md:space-y-12 items-center max-w-[130rem] mx-auto justify-center bg-homeBg bg-center bg-no-repeat ">
         <div className="flex flex-col py-12 text-center space-y-12 px-4 xl:hidden z-10 ">
-          <h1 className="text-[3rem]  leading-[4rem] md:text-7xl font-extrabold uppercase md:leading-[6rem] text-darkGray max-w-5xl mx-auto">
-            get pro portraits{" "}
-            <span className="bg-lightBlue italic px-2"> stress free</span>
+          <h1 className="text-[3rem]  leading-[4rem] md:text-7xl font-black uppercase md:leading-[6rem] text-darkGray max-w-5xl mx-auto">
+            get pro portraits
+            <br />
+            <span className="bg-lightBlue italic px-2 text-[2.5rem] md:text-[4rem]">
+              {" "}
+              stress free
+            </span>
           </h1>
           <p className="text-md max-w-xl mx-auto">
             With studio’s in every major city there is no better place for
@@ -24,8 +26,9 @@ function Hero() {
           </p>
         </div>
         <div className="hidden xl:flex flex-col py-12 text-center space-y-12 px-4 z-10 ">
-          <h1 className="text-[3rem]  leading-[4rem] md:text-[5rem] font-black uppercase md:leading-[6rem] text-darkGray max-w-5xl mx-auto">
-            get professional portraits{" "}
+          <h1 className="text-[4rem] leading-[4rem] font-black uppercase md:leading-[6rem] text-darkGray  mx-auto">
+            get professional portraits
+            <br />
             <span className="bg-lightBlue italic"> stress free</span>
           </h1>
           <p className="text-md max-w-xl mx-auto">

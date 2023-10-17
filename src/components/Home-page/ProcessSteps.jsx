@@ -29,7 +29,7 @@ function ProcessSteps() {
         return (
           <div
             key={i}
-            className="flex flex-col px-4 space-y-6 lg:flex-row lg:space-y-0 lg:space-x-24"
+            className="flex flex-col items-center px-4 space-y-6 lg:flex-row lg:space-y-0 lg:space-x-44"
           >
             <div className="flex flex-col space-y-6 z-10">
               <p

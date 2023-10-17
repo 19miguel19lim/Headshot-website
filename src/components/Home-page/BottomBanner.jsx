@@ -38,7 +38,7 @@ function BottomBanner() {
             </div>
           </div>
         </div>
-        <div className="bg-BgX bg-center bg-no-repeat">
+        <div className="bg-homeBg bg-contain bg-no-repeat">
           <img src="assets/BottomBannerImage.png" alt="" />
         </div>
       </div>

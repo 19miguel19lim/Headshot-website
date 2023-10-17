@@ -16,6 +16,9 @@ export default {
         BgX: "url(assets/Bg-X.png)",
         gradBg: "url(assets/Gradient-Background.jpeg)",
       }),
+      fontFamily: {
+        spaceGrotest: ["Space Grotesk", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -2,7 +2,7 @@ export const data = [
   {
     name: "Jessica Thornton",
     position: "HR Manager, Thorn",
-    image: "assets/portfolio-img1.png",
+    image: "assets/Porftolio Images/portfolio-img1.webp",
     bgImg: "portBg1",
     comment:
       "We were holding an annual team offsite and wanted to make sure we got everyone photographed while we were in the same place. Nathan and his team were easy to work with and made this easy for everyone. Viewing the images instantly was also a huge plus and made things go by quickly.",
@@ -10,7 +10,7 @@ export const data = [
   {
     name: "Sara Bridges",
     position: "Real Estate Broker, Redfin",
-    image: "assets/portfolio-img2.png",
+    image: "assets/Porftolio Images/portfolio-img2.webp",
     bgImg: "portBg2",
     comment:
       "Nathan is a ball of energy that brings the best out of people. He knew just how to get inside my head and make me feel relaxed in front of the camera witch literally never happens. Coming to the studio was simple and seeing the images right away it really easy.",
@@ -18,7 +18,7 @@ export const data = [
   {
     name: "James Guntt",
     position: "Lead Designer, Apex",
-    image: "assets/portfolio-img3.png",
+    image: "assets/Porftolio Images/portfolio-img3.webp",
     bgImg: "portBg3",
     comment:
       "We were holding an annual team offsite and wanted to make sure we got everyone photographed while we were in the same place. Nathan and his team were easy to work with and made this easy for everyone. Viewing the images instantly was also a huge plus and made things go by quickly.",
@@ -26,7 +26,7 @@ export const data = [
   {
     name: "Thomas Wayne",
     position: "Head Architect, Arch",
-    image: "assets/portfolio-img4.png",
+    image: "assets/Porftolio Images/portfolio-img4.webp",
     bgImg: "portBg4",
     comment:
       "We were holding an annual team offsite and wanted to make sure we got everyone photographed while we were in the same place. Nathan and his team were easy to work with and made this easy for everyone. Viewing the images instantly was also a huge plus and made things go by quickly.",
@@ -34,7 +34,7 @@ export const data = [
   {
     name: "Donna Henny",
     position: "Real Estate Broker, Solid",
-    image: "assets/portfolio-img5.png",
+    image: "assets/Porftolio Images/portfolio-img5.webp",
     bgImg: "portBg5",
     comment:
       "We were holding an annual team offsite and wanted to make sure we got everyone photographed while we were in the same place. Nathan and his team were easy to work with and made this easy for everyone. Viewing the images instantly was also a huge plus and made things go by quickly.",
@@ -42,7 +42,7 @@ export const data = [
   {
     name: "Michelle Michaels",
     position: "Software Engineer, Google",
-    image: "assets/portfolio-img6.png",
+    image: "assets/Porftolio Images/portfolio-img6.webp",
     bgImg: "portBg6",
     comment:
       "We were holding an annual team offsite and wanted to make sure we got everyone photographed while we were in the same place. Nathan and his team were easy to work with and made this easy for everyone. Viewing the images instantly was also a huge plus and made things go by quickly.",
