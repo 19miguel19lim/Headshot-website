@@ -39,15 +39,15 @@ function ConfessionSlideSm() {
     ],
   };
   return (
-    <div className="max-w-sm mx-auto px-4 md:max-w-[40rem] overflow-hidden">
+    <div className="max-w-sm mx-auto px-4 md:max-w-[40rem] overflow-hidden bg-gradient-to-t from-white via-blue-200 to-white">
       <Slider {...settings}>
         {data.map((curr, i) => (
           <div
             key={i}
-            className="flex flex-col   relative  items-center justify-center p-2  border-2 border-gray-200 rounded-3xl "
+            className="flex flex-col relative items-center justify-center p-2 rounded-3xl bg-BgX "
           >
             <img src={curr.image} alt="" className="h-[30rem] md:h-[25rem]" />
-            <div className="flex flex-col space-y-2 items-center -mt-8 md:absolute md:top-32 right-[1rem] md:max-w-[15rem]">
+            <div className="flex flex-col space-y-2 items-center -mt-8 md:absolute md:top-32 right-[1rem] md:max-w-[15rem] ">
               <p className="text-lg text-center hidden md:block md:text-sm">
                 {curr.comment}
               </p>

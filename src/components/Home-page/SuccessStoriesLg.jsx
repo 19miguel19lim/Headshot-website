@@ -7,7 +7,7 @@ function SuccessStorisLg() {
       {dataSuccess.map((curr) => (
         <div
           key={curr.id}
-          className="flex flex-col px-4 py-12 space-y-12 rounded-xl border-t-4 border-black hover:bg-black hover:text-white duration-100"
+          className="flex flex-col px-4 py-12 space-y-12 rounded-xl border-t-4 border-black "
         >
           <div className="flex w-full items-center justify-between">
             <img src={curr.image} alt="" />

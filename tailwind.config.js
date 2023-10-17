@@ -12,13 +12,10 @@ export default {
         veryLightGrey: "#eeeff4",
       },
       backgroundImage: (theme) => ({
-        homeBg: "url(assets/HeroBackground.jpg)",
-        BgX: "url(assets/Bg-X.png)",
-        gradBg: "url(assets/Gradient-Background.jpeg)",
+        homeBg: "url('assets/HeroBackground.jpg')",
+        BgX: "url('assets/Bg-X.png')",
+        gradBg: "url('assets/Gradient-Background.jpeg')",
       }),
-      fontFamily: {
-        spaceGrotest: ["Space Grotesk", "sans-serif"],
-      },
     },
   },
   plugins: [],
