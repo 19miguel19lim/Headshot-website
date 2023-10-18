@@ -176,7 +176,7 @@ function CtaForm() {
                   <div
                     key={i}
                     className="flex flex-col w-full mx-auto py-4 space-y-2 items-center border cursor-pointer border-gray-400 rounded-xl group hover:border-black"
-                    onClick={hanldeFinish}
+                    onClick={currentQuestion === 4 ? handleSubmit : handleClick}
                   >
                     <p className="text-md font-semibold">{option}</p>
                   </div>
