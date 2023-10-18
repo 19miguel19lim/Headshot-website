@@ -20,8 +20,8 @@ function Navbar() {
         </Link>
       </div>
       {/* navLinks */}
-      <div className="hidden lg:flex space-x-10 ">
-        <ul className="flex  justify-between items-center space-x-6 text-mediumGrey ">
+      <div className="hidden lg:flex space-x-4 xl:space-x-10 ">
+        <ul className="flex  justify-between items-center space-x-4 xl:space-x-6 text-mediumGrey ">
           <NavLinks />
         </ul>
         <div className="flex space-x-4">

@@ -119,15 +119,6 @@ function CtaFormDesktop() {
                     </div>
                   ))}
                 </div>
-                {/* <img src={questions[currentQuestion].icon} alt="" />
-                <div className="flex flex-col font-semibold ">
-                  <p className="text-white py-[1px] text-center  w-20 bg-black rounded-full">
-                    Step {currentQuestion + 1}/5
-                  </p>
-                  <p className="w-[10rem]">
-                    {questions[currentQuestion].desciption}
-                  </p>
-                </div> */}
               </div>
             </>
           )}
@@ -202,7 +193,7 @@ function CtaFormDesktop() {
                   <div
                     key={i}
                     className="flex flex-col w-full mx-auto py-4 space-y-2 items-center border cursor-pointer border-gray-400 rounded-xl group hover:border-black"
-                    onClick={hanldeFinish}
+                    onClick={currentQuestion === 4 ? handleSubmit : handleClick}
                   >
                     <p className="text-md font-semibold">{option}</p>
                   </div>

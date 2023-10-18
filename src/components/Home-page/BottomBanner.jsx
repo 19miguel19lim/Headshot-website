@@ -3,9 +3,9 @@ import { AiFillCalculator } from "react-icons/ai";
 
 function BottomBanner() {
   return (
-    <div className="max-w-md mx-auto lg:max-w-7xl">
+    <div className="max-w-md mx-auto lg:max-w-7xl px-4">
       <div className="flex flex-col space-y-12 items-center px-4 lg:flex-row lg:justify-around lg:space-y-0">
-        <div className="flex flex-col space-y-4 items-center lg:items-start lg:space-y-0">
+        <div className="flex flex-col space-y-4 items-center lg:items-start lg:space-y-0 ">
           <h1 className="text-xl font-black uppercase lg:text-5xl lg:max-w-xl">
             getting a quote takes just
           </h1>

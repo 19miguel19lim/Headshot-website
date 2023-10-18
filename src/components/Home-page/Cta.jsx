@@ -4,7 +4,7 @@ import CtaSlider from "./CtaSlider";
 
 function Cta() {
   return (
-    <div className="pb-44">
+    <div className="pb-44 lg:pb-[20rem]">
       <div className="flex flex-col w-full mx-auto space-y-12 md:space-y-0 md:mt-24 max-w-[120rem] relative lg:mb-44">
         <div className="flex flex-col py-12 mx-auto text-center space-y-4 px-4 md:ml-0 ">
           <h1 className="text-4xl px-4 font-black uppercase leading-[3rem] text-darkGray  md:text-left md:text-5xl md:w-[45rem] md:leading-[4rem] lg:text-6xl lg:leading-[4.5rem]">
